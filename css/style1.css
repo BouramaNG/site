@@ -1,0 +1,18 @@
+/*header section*/
+.hero_area {
+    position: relative;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .sub_page .hero_area {
+    min-height: auto;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  }
